@@ -13,8 +13,8 @@ EBIN = master/ebin
 ETEST = master/tests
 
 DESTDIR=/
-PREFIX=/usr/local
-SYSCONFDIR=/etc
+PREFIX=Users/travis/envs/discotesting
+SYSCONFDIR=$(PREFIX)/etc
 BIN_DIR = $(PREFIX)/bin/
 ERL_LIBDIR = /usr/lib/erlang
 
